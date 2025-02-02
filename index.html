@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/profile.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <title>Alfred Shyam | Portfolio</title>
+</head>
+<body style="margin: 0; background: linear-gradient(to right, #141e30, #243b55); ; padding-inline: 100px; font-family: 'Titillium Web', sans-serif; color: white;">
+
+    <header>
+        <nav style="color: white; padding: 10px 80px; display: flex; justify-content: space-between; align-items: center;">
+            <h1><span style="color: black;">AllAbout</span><span style="color: #c88f73;font-size: 30px;">AL</span></h1>
+            <ul style="list-style: none; display: flex; gap: 15px; padding: 0; margin: 0;">
+                <li><a href="#about" style="color: white; text-decoration: none; font-weight: 600;">About</a></li>
+                <li><a href="#projects" style="color: white; text-decoration: none; font-weight: 600;">Projects</a></li>
+                <li><a href="#contact" style="color: white; text-decoration: none; font-weight: 600;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" style="border-radius: 10px; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); padding: 70px; margin-bottom: 50px;">
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="width: 50%; text-align: center;">
+                    <img src="/images/profile.jpg" style="border-radius: 50%; border: 5px solid black; width: 300px; height: 300px;" alt="Alfred Shyam Profile Picture">
+                </div>
+                <div style="width: 50%; text-align: center;">
+                    <h1 style="color: #c88f73;">Hi, I'm Alfred Shyam</h1>
+                    <p>I'm a passionate web developer who loves learning and pushing limits to be the best.</p>
+                    <button style="border-radius: 5px; padding: 10px; font-weight: bold; background-color: #f17a63; border: none; cursor: pointer;">Get in Touch</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" style="padding-bottom: 50px;">
+            <h2 style="text-align: center; color: #c88f73;">Witness My Creations</h2>
+            <div style="display: flex; justify-content: space-between; padding-inline: 70px;">
+                <article style="width: 240px; border-radius: 8px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); background-color: #1a2b3d; padding: 15px; text-align: center;">
+                    <h3 style="color: #c88f73;">Netflix Clone</h3>
+                    <img src="/images/Netflix_clone_1_bi6xga.webp" style="width: 200px; border-radius: 8px;" alt="Screenshot of Netflix Clone Project">
+                    <p>A Netflix-inspired project featuring user authentication and dynamic content.</p>
+                </article>
+
+                <article style="width: 240px; border-radius: 8px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); background-color: #1a2b3d; padding: 15px; text-align: center;">
+                    <h3 style="color: #c88f73;">E-commerce App</h3>
+                    <img src="/images/Netflix_clone_1_bi6xga.webp" style="width: 200px; border-radius: 8px;" alt="Screenshot of E-commerce App Project">
+                    <p>A fully functional e-commerce platform with a shopping cart and admin panel.</p>
+                </article>
+
+                <article style="width: 240px; border-radius: 8px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); background-color: #1a2b3d; padding: 15px; text-align: center;">
+                    <h3 style="color: #c88f73;">Chat Application</h3>
+                    <img src="/images/Netflix_clone_1_bi6xga.webp" style="width: 200px; border-radius: 8px;" alt="Screenshot of Chat Application Project">
+                    <p>Real-time chat application built with WebSockets and user authentication.</p>
+                </article>
+
+                <article style="width: 240px; border-radius: 8px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); background-color: #1a2b3d; padding: 15px; text-align: center;">
+                    <h3 style="color: #c88f73;">Dashboard App</h3>
+                    <img src="/images/Netflix_clone_1_bi6xga.webp" style="width: 200px; border-radius: 8px;" alt="Screenshot of Dashboard App Project">
+                    <p>Admin dashboard with analytics and user management.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" style="border-radius: 10px; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); padding: 70px; margin-bottom: 50px;">
+            <h2 style="text-align: center; color: #c88f73;">Let's Collaborate</h2>
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="width: 50%; text-align: center;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+                    <img src="/images/profile.jpg" style="width: 200px; height: 200px;border-radius: 100%;"/>
+                    <p>I'd love to work on exciting projects. Let's build something amazing together!</p>
+                </div>
+                <div style="width: 50%;">
+                    <form action="submit" method="POST" style="display: flex;align-items: center;text-align: center;flex-direction: column;">
+                        <label for="name" style="color: white;display: block;">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" style="width: 100%; padding: 10px; margin-top: 10px; border-radius: 5px; border: none;" required>
+                        
+                        <label for="email" style="color: white;">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" style="width: 100%; padding: 10px; margin-top: 10px; border-radius: 5px; border: none;" required>
+                        
+                        <label for="message" style="color: white;">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Write your message here..." style="width: 100%; padding: 10px; margin-top: 10px; border-radius: 5px; border: none;" required></textarea>
+                        
+                        <button type="submit" style="width: 250px; padding: 10px; margin-top: 20px; background-color: #f17a63; color: white; font-weight: bold; border: none; border-radius: 5px; cursor: pointer;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 20px;">
+        <p>&copy; 2025 Alfred Shyam. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
